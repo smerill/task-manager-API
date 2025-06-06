@@ -38,22 +38,6 @@ Ideal para praticar conceitos de back-end, arquitetura de APIs, banco de dados r
     http://127.0.0.1:8000/docs → interface Swagger (interativa)
     http://127.0.0.1:8000/redoc → documentação Redoc
 
-## 🗃️ Estrutura de pastas
-
-task-manager-api/
-│
-├── app/
-│   ├── api/          # Rotas da API
-│   ├── crud/         # Operações com o banco de dados
-│   ├── models/       # Modelos das tabelas (SQLAlchemy)
-│   ├── schemas/      # Modelos de entrada/saída (Pydantic)
-│   ├── core/         # Configurações e banco de dados
-│   └── main.py       # Ponto de entrada da aplicação
-│
-├── requirements.txt  # Dependências do projeto
-├── README.md         # Documentação do repositório
-└── .gitignore        # Arquivos ignorados pelo Git
-
 ## ✨ Futuras melhorias
 
 - Autenticação com JWT
